@@ -10,11 +10,11 @@ Let's make a better timer app.
 
 Here is a picture of the countdown timer app in portrait:
 
-![Portrait][portrait.png]
+![Portrait](portrait.png)
 
 Here is a picture after you hit the Start button.
 
-![Portrait 2][portrait2.png]
+![Portrait 2](portrait2.png)
 
 Your goal is to make a paired down version of this:
 
@@ -33,3 +33,11 @@ Your goal is to make a paired down version of this:
   * When you rotate to landscape. It should just show the time label full screen. So like this:
 
   ![Landscape](landscape.png)
+
+## Making it Work
+
+  * Users should be able to select hours and minutes.
+  * The Pause button should be disabled by default. When you hit Start, the countdown should start and the Start button should turn into Cancel.
+  * During the countdown the Pause button will be enabled and should pause, not reset the countdown timer.
+  * Transition over to using the `DKCircleButton` instead of regular buttons.
+  * Check out [NSDateComponent](http://nshipster.com/nsdatecomponents/)
