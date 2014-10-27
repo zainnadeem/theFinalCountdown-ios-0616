@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00EE91AC746D227FCDD736C4 /* libPods-theFinalCountdownTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA8838E49B049A55034506 /* libPods-theFinalCountdownTests.a */; };
 		D81E9F24196D666A00FFD46B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F23196D666A00FFD46B /* Foundation.framework */; };
 		D81E9F26196D666A00FFD46B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F25196D666A00FFD46B /* CoreGraphics.framework */; };
 		D81E9F28196D666A00FFD46B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F27196D666A00FFD46B /* UIKit.framework */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33EBA375CDCE120115B189BF /* Pods-theFinalCountdownTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theFinalCountdownTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-theFinalCountdownTests/Pods-theFinalCountdownTests.release.xcconfig"; sourceTree = "<group>"; };
+		58510964D8C42C15BF6C15A3 /* Pods-theFinalCountdownTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theFinalCountdownTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-theFinalCountdownTests/Pods-theFinalCountdownTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CFA8838E49B049A55034506 /* libPods-theFinalCountdownTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-theFinalCountdownTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81E9F20196D666A00FFD46B /* theFinalCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theFinalCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81E9F23196D666A00FFD46B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D81E9F25196D666A00FFD46B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,12 +77,22 @@
 				D81E9F43196D666A00FFD46B /* XCTest.framework in Frameworks */,
 				D81E9F45196D666A00FFD46B /* UIKit.framework in Frameworks */,
 				D81E9F44196D666A00FFD46B /* Foundation.framework in Frameworks */,
+				00EE91AC746D227FCDD736C4 /* libPods-theFinalCountdownTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52B5AAFF4A67EE00B1FD31DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58510964D8C42C15BF6C15A3 /* Pods-theFinalCountdownTests.debug.xcconfig */,
+				33EBA375CDCE120115B189BF /* Pods-theFinalCountdownTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D81E9F17196D666A00FFD46B = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +100,7 @@
 				D81E9F48196D666A00FFD46B /* theFinalCountdownTests */,
 				D81E9F22196D666A00FFD46B /* Frameworks */,
 				D81E9F21196D666A00FFD46B /* Products */,
+				52B5AAFF4A67EE00B1FD31DA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +120,7 @@
 				D81E9F25196D666A00FFD46B /* CoreGraphics.framework */,
 				D81E9F27196D666A00FFD46B /* UIKit.framework */,
 				D81E9F42196D666A00FFD46B /* XCTest.framework */,
+				6CFA8838E49B049A55034506 /* libPods-theFinalCountdownTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D81E9F55196D666A00FFD46B /* Build configuration list for PBXNativeTarget "theFinalCountdownTests" */;
 			buildPhases = (
+				F59D0C869E63F7EF1F8A3C4E /* Check Pods Manifest.lock */,
 				D81E9F3D196D666A00FFD46B /* Sources */,
 				D81E9F3E196D666A00FFD46B /* Frameworks */,
 				D81E9F3F196D666A00FFD46B /* Resources */,
+				397CADB4CDDC6974F1BA6692 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +262,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		397CADB4CDDC6974F1BA6692 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-theFinalCountdownTests/Pods-theFinalCountdownTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59D0C869E63F7EF1F8A3C4E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D81E9F1C196D666A00FFD46B /* Sources */ = {
@@ -400,6 +451,7 @@
 		};
 		D81E9F56196D666A00FFD46B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58510964D8C42C15BF6C15A3 /* Pods-theFinalCountdownTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/theFinalCountdown.app/theFinalCountdown";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -422,6 +474,7 @@
 		};
 		D81E9F57196D666A00FFD46B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33EBA375CDCE120115B189BF /* Pods-theFinalCountdownTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/theFinalCountdown.app/theFinalCountdown";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -457,6 +510,7 @@
 				D81E9F54196D666A00FFD46B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D81E9F55196D666A00FFD46B /* Build configuration list for PBXNativeTarget "theFinalCountdownTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +519,7 @@
 				D81E9F57196D666A00FFD46B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
