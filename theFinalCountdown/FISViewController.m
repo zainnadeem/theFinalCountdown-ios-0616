@@ -77,7 +77,7 @@
     [self.topView addConstraints:verticalTimerLabelLayoutConstraints];
     [self.topView addConstraints:verticalTimerPickerLayoutConstraints];
     
-    NSArray *horizontalButtonLayoutConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(60)-[_startButton][_pauseButton(==_startButton)]-(60)-|" options:0 metrics:nil views:viewBottomLayerDictionary];
+    NSArray *horizontalButtonLayoutConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(<=60)-[_startButton(==80)]-(>=20)-[_pauseButton(==_startButton)]-(<=60)-|" options:0 metrics:nil views:viewBottomLayerDictionary];
     
     NSArray *verticalStartButtonLayoutConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(90)-[_startButton]" options:0 metrics:nil views:viewBottomLayerDictionary];
     
@@ -99,7 +99,7 @@
         
         NSDictionary *viewLayer0Dictionary = NSDictionaryOfVariableBindings(_topView, _bottomView);
         
-        self.verticalLayoutConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(64)-[_topView]|" options:0 metrics:nil views:viewLayer0Dictionary];
+        self.verticalLayoutConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(32)-[_topView]|" options:0 metrics:nil views:viewLayer0Dictionary];
         
         [self.view addConstraints:self.verticalLayoutConstraints];
         self.timerLabel.hidden = NO;
