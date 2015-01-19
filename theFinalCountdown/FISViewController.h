@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FISTimer.h"
 
-@interface FISViewController : UIViewController <UITraitEnvironment>
+@interface FISViewController : UIViewController <UITraitEnvironment, FISTimerProtocol>
 
 @end

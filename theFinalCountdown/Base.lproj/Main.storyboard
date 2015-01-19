@@ -19,26 +19,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YxR-49-1bB" userLabel="bottomView">
                                 <rect key="frame" x="0.0" y="259" width="320" height="309"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5g-VY-d7z">
-                                        <rect key="frame" x="143" y="140" width="33" height="30"/>
-                                        <state key="normal" title="Start">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="startTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VrS-CU-6dv"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G61-zh-9P3">
-                                        <rect key="frame" x="138" y="140" width="43" height="30"/>
-                                        <state key="normal" title="Pause">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pauseTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oAF-cO-j8X"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.0588715764" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2dl-bq-uej" userLabel="topView">
@@ -50,9 +30,9 @@
                                             <!--2014-07-09 12:01:08 +0000-->
                                         </date>
                                     </datePicker>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ACg-uO-YjG">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACg-uO-YjG">
                                         <rect key="frame" x="0.0" y="77" width="320" height="156"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="195"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="80"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -64,8 +44,6 @@
                     <navigationItem key="navigationItem" title="Timer" id="GXH-0Z-DV3"/>
                     <connections>
                         <outlet property="bottomView" destination="YxR-49-1bB" id="VYL-0q-Ia6"/>
-                        <outlet property="pauseButton" destination="G61-zh-9P3" id="k6b-Sd-STw"/>
-                        <outlet property="startButton" destination="e5g-VY-d7z" id="Ggv-dl-Liu"/>
                         <outlet property="timerLabel" destination="ACg-uO-YjG" id="CF1-6t-vzT"/>
                         <outlet property="timerPicker" destination="t0q-ZD-j8N" id="Fh5-W3-2nd"/>
                         <outlet property="topView" destination="2dl-bq-uej" id="6Su-l6-Osn"/>
