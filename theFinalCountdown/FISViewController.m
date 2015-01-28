@@ -126,7 +126,7 @@
 
     if (newCollection.verticalSizeClass == UIUserInterfaceSizeClassCompact) {
         
-        self.verticalLayoutConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(32)-[_topView]|" options:0 metrics:nil views:viewLayer0Dictionary];
+        self.verticalLayoutConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(32)-[_topView][_bottomView(==0)]|" options:0 metrics:nil views:viewLayer0Dictionary];
         
         self.timerLabel.font = [UIFont systemFontOfSize:140]; //could use a sizeToFit metric instead.   
         
