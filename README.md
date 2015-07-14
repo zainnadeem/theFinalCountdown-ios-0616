@@ -4,6 +4,44 @@ languages: objc
 ---
 # The Final Countdown
 
+##SOLUTION:
+
+
+### Using auto layout(1/4)
+<video controls width="100%">
+<source src="https://curriculum-content.s3.amazonaws.com/finalCountdown/finalCountdown/Autolayour%20Portion.mp4" type="video/mp4" >
+  Your browser does not support the video tag. We recommend using Chrome.
+  </video> 
+  
+  
+### Using size classes (2/4)
+  <video controls width="100%">
+<source src="https://curriculum-content.s3.amazonaws.com/finalCountdown/finalCountdown/Size%20Classes.mp4" type="video/mp4" >
+  Your browser does not support the video tag. We recommend using Chrome.
+  </video> 
+  
+  
+
+### Creating a separate timer class (3/4)
+  <video controls width="100%">
+<source src="https://curriculum-content.s3.amazonaws.com/finalCountdown/finalCountdown/TimerClass.mp4" >
+  Your browser does not support the video tag. We recommend using Chrome.
+  </video> 
+  
+  
+
+### Putting it all together, implementing the view controller. (4/4)
+ 
+ <video controls width="100%">
+<source src="https://curriculum-content.s3.amazonaws.com/finalCountdown/finalCountdown/ViewController%20Implentation.mp4" >
+  Your browser does not support the video tag. We recommend using Chrome.
+  </video> 
+ 
+
+
+
+
+
 Let's make a better timer app.
 
 ## The Interface:
