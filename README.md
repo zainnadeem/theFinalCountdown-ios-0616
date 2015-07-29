@@ -1,7 +1,4 @@
----
-tags: nstimer, autolayout, rotation
-languages: objc
----
+
 # The Final Countdown
 
 Let's make a better timer app.
