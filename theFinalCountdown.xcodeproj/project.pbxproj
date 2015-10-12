@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00EE91AC746D227FCDD736C4 /* libPods-theFinalCountdownTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA8838E49B049A55034506 /* libPods-theFinalCountdownTests.a */; };
+		4D55493F1BCC3BB9001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55493E1BCC3BB9001E3D77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		D81E9F24196D666A00FFD46B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F23196D666A00FFD46B /* Foundation.framework */; };
 		D81E9F26196D666A00FFD46B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F25196D666A00FFD46B /* CoreGraphics.framework */; };
 		D81E9F28196D666A00FFD46B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E9F27196D666A00FFD46B /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		33EBA375CDCE120115B189BF /* Pods-theFinalCountdownTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theFinalCountdownTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-theFinalCountdownTests/Pods-theFinalCountdownTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D55493E1BCC3BB9001E3D77 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		58510964D8C42C15BF6C15A3 /* Pods-theFinalCountdownTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theFinalCountdownTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-theFinalCountdownTests/Pods-theFinalCountdownTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CFA8838E49B049A55034506 /* libPods-theFinalCountdownTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-theFinalCountdownTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81E9F20196D666A00FFD46B /* theFinalCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theFinalCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 				D81E9F38196D666A00FFD46B /* FISViewController.h */,
 				D81E9F39196D666A00FFD46B /* FISViewController.m */,
 				D81E9F3B196D666A00FFD46B /* Images.xcassets */,
+				4D55493E1BCC3BB9001E3D77 /* Launch Screen.storyboard */,
 				D81E9F2A196D666A00FFD46B /* Supporting Files */,
 			);
 			path = theFinalCountdown;
@@ -249,6 +252,7 @@
 			files = (
 				D81E9F3C196D666A00FFD46B /* Images.xcassets in Resources */,
 				D81E9F2E196D666A00FFD46B /* InfoPlist.strings in Resources */,
+				4D55493F1BCC3BB9001E3D77 /* Launch Screen.storyboard in Resources */,
 				D81E9F37196D666A00FFD46B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,7 +432,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "theFinalCountdown/theFinalCountdown-Prefix.pch";
 				INFOPLIST_FILE = "theFinalCountdown/theFinalCountdown-Info.plist";
@@ -443,7 +446,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "theFinalCountdown/theFinalCountdown-Prefix.pch";
 				INFOPLIST_FILE = "theFinalCountdown/theFinalCountdown-Info.plist";
