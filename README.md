@@ -5,6 +5,8 @@ Let's make a better timer app.
 
 ## The Interface:
 
+Start with some theme music by [listening to this amazing cover song.](https://www.youtube.com/watch?v=XAg5KjnAhuU)
+
 Here is a picture of the countdown timer app in portrait:
 
 ![Portrait](https://ironboard-curriculum-content.s3.amazonaws.com/iOS/theFinalCountdown/portrait.png)
