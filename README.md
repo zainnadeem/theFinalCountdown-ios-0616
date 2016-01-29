@@ -37,4 +37,4 @@ Your goal is to make a paired down version of this:
   * When you turn the timer horizontally, it should show 00:00:00 if the timer is not active.
   * Check out [NSDateComponent](http://nshipster.com/nsdatecomponents/) and `NSTimer` in the Apple Documentation.
 
-<a href='https://learn.co/lessons/theFinalCountdown' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/theFinalCountdown' title='The Final Countdown'>The Final Countdown</a> on Learn.co and start learning to code for free.</p>
