@@ -1,7 +1,7 @@
 
 # The Final Countdown
 
-Let's make a better timer app.
+Let's make a timer app!
 
 ## The Interface:
 
